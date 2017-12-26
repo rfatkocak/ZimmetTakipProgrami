@@ -1,0 +1,41 @@
+
+
+<ion-header>
+    <ion-header style="background-color:#488aff;" >
+        <ion-title  ><h3  style="color:white;font-family:Helvatica;font-style: italic;font-size:22px;text-align:center; font-weight: bold; ">ZİMMET TAKİP PROGRAMI</h3></ion-title>
+       </ion-header>
+</ion-header>
+
+<ion-content>
+    <br>  <br>  
+    
+     <ion-list>
+           
+        
+          
+               <img src="{{aD}}">   
+               <ion-item>
+                  <ion-label><h2>{{zimmetD}}</h2></ion-label>
+                  <ion-input type="text" [(ngModel)]="zimmetI" ></ion-input>
+                </ion-item>
+              
+                <ion-item>
+                  <ion-label><h2>{{adD}}</h2></ion-label>
+                  <ion-input type="text"  [(ngModel)]="adI" ></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label><h2>{{tarih1D}}</h2></ion-label>
+                    <ion-input type="date" [(ngModel)]="tarih1I" ></ion-input>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label><h2>{{tarih2D}}</h2></ion-label>
+                      <ion-input type="date" [(ngModel)]="tarih2I" ></ion-input>
+                    </ion-item>
+                
+     </ion-list>
+</ion-content>
+<ion-footer>
+
+<button (click)="sil()"  ion-button clear item-end    style="width:100%;font-size:15px;">ZİMMET SİL</button>
+<button  (click)="guncel()" ion-button clear item-end  style="width:100%;font-size:15px;">ZİMMET GÜNCELLE</button>
+</ion-footer> 

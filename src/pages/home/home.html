@@ -1,0 +1,59 @@
+
+ <ion-header style="background-color:#488aff;" >
+  <ion-title  ><h3  style="color:white;font-family:Helvatica;font-style: italic;font-size:22px;text-align:center; font-weight: bold; ">ZİMMET TAKİP PROGRAMI</h3></ion-title>
+ </ion-header>
+    <ion-content>
+     
+     
+      <ion-list>
+            
+          <ion-item >
+            <ion-thumbnail item-start>  
+                <img src="/assets/imgs/masa (2).jpg">   
+            </ion-thumbnail>
+           
+            <h3>Çalışma Masası </h3>
+            <p>Rıfat Koçak<br>15.05.2015<br>25.10.2020</p>
+            
+            <button (click)="openDuzenleBir()" ion-button clear item-end>Düzenle</button>
+          </ion-item>
+          
+          <ion-item>
+              <ion-thumbnail item-start>
+                  <img src="/assets/imgs/yazıcı.jpg">
+              </ion-thumbnail>
+              <h2>Yazıcı</h2>
+              <p>Ammar Eşit<br>03.09.2011<br>11.02.2018</p>
+              <button (click)="openDuzenleIki()" ion-button clear item-end>Düzenle</button>
+            </ion-item>
+            <ion-item>
+                <ion-thumbnail item-start>  
+                    <img src="/assets/imgs/ofis.jpg">
+                </ion-thumbnail>
+                <h2>Çalışma Ofisi</h2>
+                <p>Alperen Uzun<br>06.09.2017<br>12.27.2021</p>
+                <button (click)="openDuzenleUc()" ion-button clear item-end>Düzenle</button>
+              </ion-item>
+              <ion-item>
+                    <ion-thumbnail item-start>
+                        <img src="/assets/imgs/bilgisayar.jpg">
+                    </ion-thumbnail>
+                    <h2>Bilgisayar</h2>
+                    <p>Kadir Doğan<br>03.13.2014<br>11.18.2019</p>
+                    <button (click)="openDuzenleDort()" ion-button clear item-end>Düzenle</button>
+                  </ion-item>
+        </ion-list>
+        
+          
+              
+       
+        
+  </ion-content>
+       
+<ion-footer style="background-color:#488aff;">
+    
+    
+    <button (click)="openEkle()"   ion-button clear item-end style="background-color:#487ad1;color:rgb(255, 255, 255); font-size:20px; text-align:center; width:100%">YENİ ZİMMET EKLE</button>
+    
+    <ion-title><h3 style="color:white;font-family:Helvatica;font-size:22px;text-align:center; font-style: italic; font-weight: bold; ">SİSTEM YÖNETİCİSİ</h3></ion-title>
+</ion-footer>

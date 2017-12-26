@@ -1,0 +1,41 @@
+<!--
+  Generated template for the EklePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header style="background-color:#488aff;" >
+  
+    <ion-title  ><h3  style="color:white;font-family:Helvatica;font-style: italic;font-size:22px;text-align:center; font-weight: bold; ">ZİMMET TAKİP PROGRAMI</h3></ion-title>
+  
+  </ion-header>
+
+
+<ion-content padding>
+    <ion-img width="120" height="120" src="..."></ion-img><button ion-button clear item-end style="width:50%;float:right;font-size:15px;">Resim Seç</button>
+    <ion-item>
+        <ion-label><h3>Zimmet Adı</h3></ion-label>
+        <ion-input type="text" [(ngModel)]="zimmetA" tyle="font-size:13px"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label><h3>Kullanıcı Adı</h3></ion-label>
+        <ion-input type="text" [(ngModel)]="adA"style="font-size:13px"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label><h3>Başlangıç Tarihi</h3></ion-label>
+          <ion-input type="date" [(ngModel)]="tarih1A" style="font-size:13px"></ion-input>  
+        </ion-item>
+        <ion-item>
+            <ion-label><h3>Bitiş Tarihi</h3></ion-label>
+            <ion-input type="date" [(ngModel)]="tarih2A" style="font-size:13px"></ion-input>
+          </ion-item>
+          <br><br>
+          <button (click)="ekle()" ion-button clear item-end style="width:100%;height:50px;font-size:20px;">Zimmet Ekle</button>
+</ion-content>
+<ion-footer style="background-color:#488aff;">
+    
+    
+    
+    <ion-title><h3 style="color:white;font-family:Helvatica;font-size:22px;text-align:center; font-style: italic; font-weight: bold; ">SİSTEM YÖNETİCİSİ</h3></ion-title>
+</ion-footer>
